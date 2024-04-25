@@ -75,7 +75,7 @@ public class MineModel {
     }
 
     // Method counts the number of mines that are in the area for each index in the table, and saves the values
-    // in the "countMineThreat"-table. Like the "mineBoard"-table; this table is also used to compare up
+    // in the "countMineThreat"-table. Like the "mineBoard"-table; this table is also used to compare
     // against after every single play.
     private void calculateMineThreat(int row, int col) {
 
