@@ -34,7 +34,7 @@ public class MineController {
     public void playGame() {
 
         this.view.printGameBoard(this.model.getGameBoard());
-        System.out.print("Set/unset mines marks or claim a cell as free: ");
+        System.out.print("Set/unset mines, marks or claim a cell as free: ");
         String[] input = this.scanner.nextLine().split(" ");
         parseInput(input);
 
@@ -53,7 +53,7 @@ public class MineController {
             }
 
             if (!isFinished) {
-                System.out.print("Set/unset mines marks or claim a cell as free: ");
+                System.out.print("Set/unset mines, marks or claim a cell as free: ");
                 input = this.scanner.nextLine().split(" ");
                 parseInput(input);
             }
