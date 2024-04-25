@@ -1,7 +1,7 @@
 # mine-sweeper
 Mine sweeper game with a simple UI
 
-Hyper skill project (Java Developer). Stage 5/5.
+Hyperskill project "Minesweeper" (Java Developer). Stage 5/5.
 
 User enters row-number and colmun-number followed by 'free' to clear out the game board.
 To mark a cell as a potential mine, input row- and column number again, followed by 'mine'. 
